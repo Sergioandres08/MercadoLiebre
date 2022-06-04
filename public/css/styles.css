@@ -1,0 +1,405 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-header{
+    background-color: #EAC926 !important;
+    padding: 20px;
+}
+.product_img{
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: -20px;
+}
+
+.img{
+   width: 200px;
+}
+.titulares{
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.descuento{
+    font-size: 16px;
+    color: green;
+    flex-basis: 70%;
+    justify-self: flex-start;
+}
+
+.descripcion{
+    display: none;
+   font-size: 16px;
+}
+article:hover .descripcion{
+    display: block;
+    transition: 
+    display,0.5s; 
+ }
+ article:hover .fa-truck{
+    transform: rotate(-90deg);
+    transition: transform,0.5s;
+ }
+.precio{
+    flex-basis: 30%;
+    font-size: 18px;
+    justify-self: flex-start;
+}
+
+.compra{
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+section.banner img{
+    width: 100%;
+}
+
+.main-top{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer{
+text-align: center;
+margin-top: 30px;
+
+}
+.footer-seccion{
+    margin-top: 30px;
+}
+.footer-copy{
+    margin-top: 30px;
+}
+
+h4{
+    color: #666;
+}
+
+.nav-bar, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.nav-bar {
+    text-decoration: none;
+    color: #222222;
+    padding: 5px 0;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.enlaces{
+    display: flex;
+}
+.enlaces li{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.burger-menu{
+background-color: darkblue;
+color: white;
+display: block;
+max-width: 50px;
+padding: 15px 0;
+border-radius: 8px;
+text-align: center;
+font-size: 18px;
+margin: auto;
+}
+.seccionproductos{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-color: #ebebeb;
+    background-color: #ebebeb;
+    width: 40%;
+}
+.seccionproductos:hover {
+    box-shadow: 10px 5px 5px black;
+    transition: 
+    box-shadow,0.5s; 
+ }
+
+.icono{
+    color: rgb(0, 149, 255) !important;
+}
+#mainOrganization{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #ebebeb;
+    
+}
+.mainproductos{
+    align-content: center;
+    align-self: stretch;
+    align-self: flex-start; 
+    
+}
+
+.elementosproductos{
+    position: relative;
+    text-align: left;
+    border-color: #ebebeb;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+#iconosfooter:hover{
+    color: #0022AA !important;
+}
+.fa-truck:hover{
+    transform: rotateZ(-90deg);
+    transition: 
+    transform,0.5s; 
+}
+.Botonenviologin:hover{
+    background-color: #0022AA;
+transition: background-color,0.5s;
+}
+#price{
+    display: flex;
+    flex-direction: row;
+}
+.login{
+    background-color:gainsboro;
+    padding: 0;
+    }
+    .main-login{
+        
+        text-align: center;  
+    }
+    .main-login form p input {
+    width: 80%;
+    height: 35px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    }
+    .main-login form p button {
+        width: 80%;
+    height: 35px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+        color: white;
+        background-color:rgb(0, 149, 255) ;
+    }
+    .register{
+        background-color:#ebebeb;
+        padding: 0;
+        }
+    .main-register{
+    width: 50%;
+    margin: 0 auto;
+    }
+    .main-register form div input{
+    width: 80%;
+    height: 35px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    }
+    .main-register form div button {
+        
+        color: white;
+        background-color:rgb(0, 149, 255) ;
+        width: 80%;
+        height: 35px;
+        margin: 20px 0;
+        border-radius: 5px;
+        border: none;
+    }
+    .opciones input { 
+        width: 15px !important;
+        height: auto !important;
+        margin: 10px 0 !important;
+    }
+    #Fotodeusuario{
+        margin-top: 15px;
+    }
+    
+
+@media (min-width: 0px) and (max-width: 360px) {
+    .nav-bar{
+        display: none;
+    }
+    .descripcion{
+        display: none;
+    }
+    .mainproductos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .seccionproductos{
+        width: 80%;
+    }
+    .titulares{
+        margin-left: 10%;
+    }
+    .main-top{
+        align-items: stretch;
+        align-self: stretch;
+    }
+    .logoMain{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .img{
+        flex-basis: 50%; 
+        
+    }
+    #search{
+        flex-basis: 50%;
+        
+    }
+    .register{
+        background-color: #ebebeb;
+        padding: 0;
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+        }
+    .main-register{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    
+    
+    }
+    .main-register form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    .main-register form div #radios{
+        display: flex;
+       flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main-register form div #checkbox{
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+
+    }
+    .main-register form div#checkbox div{
+        margin-top: 15px;
+    }
+    .main-register form div input{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    }
+    .main-register form div button {
+        width: 100%;
+        color: white;
+        background-color:rgb(0, 149, 255) ;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+}
+
+@media (min-width: 361px)  and (max-width: 768px) {
+    .burger-menu{
+        display: none;
+        
+    }    
+    .mainproductos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #subProducts{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .titulares{
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 769px)  {
+    .burger-menu{
+        display: none;
+    }    
+    .footer-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-copy{
+        text-align: left;
+    }
+    #sectionOrganize{
+        display: flex;
+        flex-direction: row;
+    }
+    #subProducts{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+.titulares{
+    margin-left: 2.5%;
+}
+}
