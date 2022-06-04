@@ -74,6 +74,7 @@ section.banner img{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom: 40px;
 }
 footer{
 text-align: center;
@@ -376,6 +377,33 @@ transition: background-color,0.5s;
     .titulares{
         margin-left: 5%;
     }
+    .main-top{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logoMain{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .img{
+        flex-basis: 20%; 
+        
+    }
+    #search{
+        flex-basis: 95%;
+    }
+    .fa-search{
+        justify-self: flex-end;
+        flex-basis: 5%;
+    }
+    .login-bar{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-basis: 40%;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 769px)  {
@@ -402,4 +430,34 @@ transition: background-color,0.5s;
 .titulares{
     margin-left: 2.5%;
 }
+.main-top{
+    justify-content: space-around;
+    align-items: center;
 }
+.logoMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.img{
+    flex-basis: 20%; 
+    
+}
+.login-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+#search{
+    flex-basis: 94%;
+}
+.fa-search{
+    justify-self: flex-end;
+    flex-basis: 5%;
+}
+
+}
+
+
